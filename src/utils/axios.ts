@@ -9,7 +9,7 @@
 import axios from "axios";
 
 // const url = window.location.origin + "/api";
-const url = "https://web-service-lc4s.onrender.com" + "/api";
+const url = "https://web-service-lc4s.onrender.com";
 axios.defaults.baseURL = url;
 axios.defaults.withCredentials = false;
 axios.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
